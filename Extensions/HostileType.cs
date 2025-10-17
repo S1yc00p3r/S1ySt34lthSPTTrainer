@@ -1,4 +1,4 @@
-﻿namespace EFT.Trainer.Extensions;
+﻿namespace S1ySt34lth.Trainer.Extensions;
 
 public enum HostileType
 {

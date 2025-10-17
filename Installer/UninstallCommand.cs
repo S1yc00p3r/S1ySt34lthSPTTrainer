@@ -14,7 +14,7 @@ internal sealed class UninstallCommand : Command<UninstallCommand.Settings>
 {
 	internal class Settings : CommandSettings
 	{
-		[Description("Path to EFT.")]
+		[Description("Path to S1ySt34lth.")]
 		[CommandArgument(0, "[path]")]
 		public string? Path { get; set; }
 	}
@@ -24,7 +24,7 @@ internal sealed class UninstallCommand : Command<UninstallCommand.Settings>
 	{
 		try
 		{
-			AnsiConsole.MarkupLine("-=[[ [cyan]EscapeFromTarkov-Trainer Universal Installer[/] - [blue]https://github.com/sailro [/]]]=-");
+			AnsiConsole.MarkupLine("-=[[ [cyan]S1ySt34lthSPTTrainer Universal Installer[/] - [blue]https://github.com/sailro [/]]]=-");
 			AnsiConsole.WriteLine();
 
 			var installation = Installation.GetTargetInstallation(settings.Path, "Please select from where to uninstall the trainer");
@@ -33,7 +33,7 @@ internal sealed class UninstallCommand : Command<UninstallCommand.Settings>
 
 			AnsiConsole.MarkupLine($"Target [green]EscapeFromTarkov ({installation.Version})[/] in [blue]{installation.Location.EscapeMarkup()}[/].");
 
-			if (!RemoveFile(Path.Combine(installation.Managed, "NLog.EFT.Trainer.dll")))
+			if (!RemoveFile(Path.Combine(installation.Managed, "NLog.S1ySt34lth.Trainer.dll")))
 				return (int)ExitCode.RemoveDllFailed;
 
 			// MonoMod.RuntimeDetour is a dependency used by the non-ilmerged 0Harmony.dll used by legacy spt. In this case we are not handling the removal
@@ -53,7 +53,7 @@ internal sealed class UninstallCommand : Command<UninstallCommand.Settings>
 		}
 		catch (Exception ex)
 		{
-			AnsiConsole.MarkupLine($"[red]Error: {ex.Message.EscapeMarkup()}. Please file an issue here : https://github.com/sailro/EscapeFromTarkov-Trainer/issues [/]");
+			AnsiConsole.MarkupLine($"[red]Error: {ex.Message.EscapeMarkup()}. Please file an issue here : https://github.com/sailro/S1ySt34lthSPTTrainer/issues [/]");
 			return (int)ExitCode.Failure;
 		}
 

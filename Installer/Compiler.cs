@@ -206,7 +206,7 @@ internal partial class Compiler
 			resource.Position = 0;
 
 			var resourceName = file
-				.Replace(@"Properties\Strings", "EFT.Trainer.Properties.Strings")
+				.Replace(@"Properties\Strings", "S1ySt34lth.Trainer.Properties.Strings")
 				.Replace($".{context.Language}.", ".", StringComparison.OrdinalIgnoreCase)
 				.Replace(".resx", ".resources");
 

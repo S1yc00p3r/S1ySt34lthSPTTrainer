@@ -2,15 +2,15 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
-using EFT.Trainer.Configuration;
-using EFT.Trainer.ConsoleCommands;
-using EFT.Trainer.Properties;
-using EFT.UI;
+using S1ySt34lth.Trainer.Configuration;
+using S1ySt34lth.Trainer.ConsoleCommands;
+using S1ySt34lth.Trainer.Properties;
+using S1ySt34lth.UI;
 using UnityEngine;
 
 #nullable enable
 
-namespace EFT.Trainer.Features;
+namespace S1ySt34lth.Trainer.Features;
 
 internal class Commands : FeatureRenderer
 {

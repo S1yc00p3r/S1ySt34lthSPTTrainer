@@ -2,11 +2,11 @@
 using System.Collections.Generic;
 using System.Linq;
 using Comfort.Common;
-using EFT.InventoryLogic;
+using S1ySt34lth.InventoryLogic;
 
 #nullable enable
 
-namespace EFT.Trainer.Features;
+namespace S1ySt34lth.Trainer.Features;
 
 internal class TemplateHelper
 {

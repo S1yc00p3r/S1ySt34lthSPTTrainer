@@ -1,10 +1,10 @@
 ﻿using System.Diagnostics.CodeAnalysis;
-using EFT.InventoryLogic;
-using EFT.UI.DragAndDrop;
+using S1ySt34lth.InventoryLogic;
+using S1ySt34lth.UI.DragAndDrop;
 
 #nullable enable
 
-namespace EFT.Trainer.Extensions;
+namespace S1ySt34lth.Trainer.Extensions;
 
 public static class ItemExtensions
 {

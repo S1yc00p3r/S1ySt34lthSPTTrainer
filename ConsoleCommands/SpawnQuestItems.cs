@@ -1,15 +1,15 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
-using EFT.Quests;
-using EFT.Trainer.Extensions;
-using EFT.Trainer.Features;
-using EFT.Trainer.Properties;
+using S1ySt34lth.Quests;
+using S1ySt34lth.Trainer.Extensions;
+using S1ySt34lth.Trainer.Features;
+using S1ySt34lth.Trainer.Properties;
 using JetBrains.Annotations;
 using UnityEngine;
 
 #nullable enable
 
-namespace EFT.Trainer.ConsoleCommands;
+namespace S1ySt34lth.Trainer.ConsoleCommands;
 
 [UsedImplicitly]
 internal class SpawnQuestItems : ConsoleCommandWithoutArgument

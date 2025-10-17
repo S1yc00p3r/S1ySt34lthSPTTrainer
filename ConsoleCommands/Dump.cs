@@ -1,14 +1,14 @@
 ﻿using System;
 using System.IO;
-using EFT.Trainer.Features;
-using EFT.Trainer.Properties;
+using S1ySt34lth.Trainer.Features;
+using S1ySt34lth.Trainer.Properties;
 using JetBrains.Annotations;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
 #nullable enable
 
-namespace EFT.Trainer.ConsoleCommands;
+namespace S1ySt34lth.Trainer.ConsoleCommands;
 
 [UsedImplicitly]
 internal class Dump : ConsoleCommandWithoutArgument

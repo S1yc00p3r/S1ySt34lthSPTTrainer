@@ -1,12 +1,12 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
-using EFT.Trainer.Configuration;
+using S1ySt34lth.Trainer.Configuration;
 using JetBrains.Annotations;
 using UnityEngine;
 
 #nullable enable
 
-namespace EFT.Trainer.Features;
+namespace S1ySt34lth.Trainer.Features;
 
 internal abstract class CachableFeature<T> : ToggleFeature
 {
@@ -53,7 +53,7 @@ internal abstract class CachableFeature<T> : ToggleFeature
 			}
 
 #if DEBUG_PERFORMANCE
-			AddConsoleLog(string.Format(EFT.Trainer.Properties.Strings.DebugPerformanceRefreshedFormat, GetType().Name, _stopwatch.ElapsedMilliseconds));
+			AddConsoleLog(string.Format(S1ySt34lth.Trainer.Properties.Strings.DebugPerformanceRefreshedFormat, GetType().Name, _stopwatch.ElapsedMilliseconds));
 #endif
 		}
 

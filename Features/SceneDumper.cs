@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 #nullable enable
 
-namespace EFT.Trainer.Features;
+namespace S1ySt34lth.Trainer.Features;
 
 internal class SceneDumper
 {

@@ -1,12 +1,12 @@
 ﻿using System;
 using System.Reflection;
-using EFT.InputSystem;
-using EFT.UI;
+using S1ySt34lth.InputSystem;
+using S1ySt34lth.UI;
 using Newtonsoft.Json;
 
 #nullable enable
 
-namespace EFT.Trainer.Features;
+namespace S1ySt34lth.Trainer.Features;
 
 internal interface IFeature
 {

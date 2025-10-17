@@ -1,9 +1,9 @@
 ﻿using System;
 using System.IO;
 using System.Linq;
-using EFT.Trainer.Features;
+using S1ySt34lth.Trainer.Features;
 
-namespace EFT.Trainer;
+namespace S1ySt34lth.Trainer;
 
 internal static class Context
 {

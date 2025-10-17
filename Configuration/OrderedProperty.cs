@@ -2,7 +2,7 @@
 
 #nullable enable
 
-namespace EFT.Trainer.Configuration;
+namespace S1ySt34lth.Trainer.Configuration;
 
 internal class OrderedProperty(ConfigurationPropertyAttribute attribute, PropertyInfo property)
 {

@@ -3,16 +3,16 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text.RegularExpressions;
 using Comfort.Common;
-using EFT.Interactive;
-using EFT.InventoryLogic;
-using EFT.Trainer.Extensions;
-using EFT.Trainer.Features;
-using EFT.Trainer.Properties;
+using S1ySt34lth.Interactive;
+using S1ySt34lth.InventoryLogic;
+using S1ySt34lth.Trainer.Extensions;
+using S1ySt34lth.Trainer.Features;
+using S1ySt34lth.Trainer.Properties;
 using JsonType;
 
 #nullable enable
 
-namespace EFT.Trainer.ConsoleCommands;
+namespace S1ySt34lth.Trainer.ConsoleCommands;
 
 internal abstract class BaseListCommand : ConsoleCommandWithArgument
 {

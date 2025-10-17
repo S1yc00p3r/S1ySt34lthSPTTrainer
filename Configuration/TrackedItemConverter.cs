@@ -1,12 +1,12 @@
 ﻿using System;
-using EFT.Trainer.Features;
-using EFT.Trainer.Properties;
+using S1ySt34lth.Trainer.Features;
+using S1ySt34lth.Trainer.Properties;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 
 #nullable enable
 
-namespace EFT.Trainer.Configuration;
+namespace S1ySt34lth.Trainer.Configuration;
 
 public class TrackedItemConverter : JsonConverter
 {

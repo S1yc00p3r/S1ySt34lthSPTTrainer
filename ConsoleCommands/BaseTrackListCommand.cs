@@ -4,7 +4,7 @@ using System.Text.RegularExpressions;
 
 #nullable enable
 
-namespace EFT.Trainer.ConsoleCommands;
+namespace S1ySt34lth.Trainer.ConsoleCommands;
 
 internal abstract class BaseTrackListCommand : ConsoleCommandWithArgument
 {

@@ -4,7 +4,7 @@ using UnityEngine;
 
 #nullable enable
 
-namespace EFT.Trainer.UI;
+namespace S1ySt34lth.Trainer.UI;
 
 public class EnumPicker<T>(T value) : Picker<T>(value) where T : struct, IConvertible
 {

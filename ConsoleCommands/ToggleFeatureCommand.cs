@@ -1,10 +1,10 @@
 ﻿using System.Text.RegularExpressions;
-using EFT.Trainer.Features;
-using EFT.Trainer.Properties;
+using S1ySt34lth.Trainer.Features;
+using S1ySt34lth.Trainer.Properties;
 
 #nullable enable
 
-namespace EFT.Trainer.ConsoleCommands;
+namespace S1ySt34lth.Trainer.ConsoleCommands;
 
 internal class ToggleFeatureCommand(ToggleFeature feature) : ConsoleCommandWithArgument
 {

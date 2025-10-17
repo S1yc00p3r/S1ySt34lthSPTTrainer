@@ -1,15 +1,15 @@
 ﻿using System.Collections.Generic;
 using Comfort.Common;
-using EFT.Interactive;
-using EFT.Trainer.Configuration;
-using EFT.Trainer.Extensions;
-using EFT.Trainer.Properties;
+using S1ySt34lth.Interactive;
+using S1ySt34lth.Trainer.Configuration;
+using S1ySt34lth.Trainer.Extensions;
+using S1ySt34lth.Trainer.Properties;
 using JetBrains.Annotations;
 using UnityEngine;
 
 #nullable enable
 
-namespace EFT.Trainer.Features;
+namespace S1ySt34lth.Trainer.Features;
 
 [UsedImplicitly]
 internal class LootableContainers : PointOfInterests

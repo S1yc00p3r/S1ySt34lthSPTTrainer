@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace EFT.Trainer.Properties {
+namespace S1ySt34lth.Trainer.Properties {
     using System;
     
     
@@ -39,7 +39,7 @@ namespace EFT.Trainer.Properties {
         internal static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("EFT.Trainer.Properties.Strings", typeof(Strings).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("S1ySt34lth.Trainer.Properties.Strings", typeof(Strings).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
@@ -783,7 +783,7 @@ namespace EFT.Trainer.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to EFT Trainer.
+        ///   Looks up a localized string similar to S1ySt34lthSPTTrainer.
         /// </summary>
         internal static string FeatureCommandsTitle {
             get {
@@ -1422,7 +1422,7 @@ namespace EFT.Trainer.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Welcome to EFT-Trainer !.
+        ///   Looks up a localized string similar to Welcome to S1ySt34lth-Trainer !.
         /// </summary>
         internal static string FeatureRendererWelcome {
             get {

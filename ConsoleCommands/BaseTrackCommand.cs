@@ -1,11 +1,11 @@
 ﻿using System.Text.RegularExpressions;
-using EFT.Trainer.Configuration;
+using S1ySt34lth.Trainer.Configuration;
 using JsonType;
 using UnityEngine;
 
 #nullable enable
 
-namespace EFT.Trainer.ConsoleCommands;
+namespace S1ySt34lth.Trainer.ConsoleCommands;
 
 internal abstract class BaseTrackCommand : ConsoleCommandWithArgument
 {
