@@ -2,15 +2,15 @@
 using System.Collections.Generic;
 using System.Globalization;
 using System.Linq;
-using EFT.InputSystem;
-using EFT.Trainer.Configuration;
-using EFT.Trainer.Properties;
-using EFT.Trainer.UI;
+using S1ySt34lth.InputSystem;
+using S1ySt34lth.Trainer.Configuration;
+using S1ySt34lth.Trainer.Properties;
+using S1ySt34lth.Trainer.UI;
 using UnityEngine;
 
 #nullable enable
 
-namespace EFT.Trainer.Features;
+namespace S1ySt34lth.Trainer.Features;
 
 internal abstract class FeatureRenderer : ToggleFeature
 {

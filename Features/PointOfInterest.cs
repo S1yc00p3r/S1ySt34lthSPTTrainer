@@ -2,7 +2,7 @@
 
 #nullable enable
 
-namespace EFT.Trainer.Features;
+namespace S1ySt34lth.Trainer.Features;
 
 // We do not want to store camera-relative stuff here, given the player is moving.
 // We'll need to re-compute the screen-position/distance/... when using OnGUI

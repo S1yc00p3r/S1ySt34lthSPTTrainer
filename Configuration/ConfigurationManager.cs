@@ -3,14 +3,14 @@ using System.IO;
 using System.Linq;
 using System.Reflection;
 using System.Text;
-using EFT.Trainer.Features;
-using EFT.Trainer.Properties;
-using EFT.UI;
+using S1ySt34lth.Trainer.Features;
+using S1ySt34lth.Trainer.Properties;
+using S1ySt34lth.UI;
 using Newtonsoft.Json;
 
 #nullable enable
 
-namespace EFT.Trainer.Configuration;
+namespace S1ySt34lth.Trainer.Configuration;
 
 internal static class ConfigurationManager
 {

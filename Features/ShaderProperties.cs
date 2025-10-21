@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace EFT.Trainer.Features;
+namespace S1ySt34lth.Trainer.Features;
 
 internal class ShaderProperties
 {

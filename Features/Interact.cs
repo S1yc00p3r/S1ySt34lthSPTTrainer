@@ -1,8 +1,8 @@
-﻿using EFT.Trainer.Configuration;
-using EFT.Trainer.Properties;
+﻿using S1ySt34lth.Trainer.Configuration;
+using S1ySt34lth.Trainer.Properties;
 using JetBrains.Annotations;
 
-namespace EFT.Trainer.Features;
+namespace S1ySt34lth.Trainer.Features;
 
 [UsedImplicitly]
 internal class Interact : ToggleFeature

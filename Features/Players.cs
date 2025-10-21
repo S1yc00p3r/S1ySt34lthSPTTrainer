@@ -1,19 +1,19 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using EFT.CameraControl;
-using EFT.InventoryLogic;
-using EFT.Trainer.Configuration;
-using EFT.Trainer.Extensions;
-using EFT.Trainer.Properties;
-using EFT.Trainer.UI;
+using S1ySt34lth.CameraControl;
+using S1ySt34lth.InventoryLogic;
+using S1ySt34lth.Trainer.Configuration;
+using S1ySt34lth.Trainer.Extensions;
+using S1ySt34lth.Trainer.Properties;
+using S1ySt34lth.Trainer.UI;
 using JetBrains.Annotations;
 using UnityEngine;
 using UnityEngine.Rendering;
 
 #nullable enable
 
-namespace EFT.Trainer.Features;
+namespace S1ySt34lth.Trainer.Features;
 
 public class PlayerColor(Color color, Color borderColor, Color infoColor) : IFeature
 {

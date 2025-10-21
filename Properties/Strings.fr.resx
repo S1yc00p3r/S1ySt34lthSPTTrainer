@@ -364,7 +364,7 @@ Les couleurs sont stockées sous la forme d'un tableau de valeurs flottantes 'RG
     <value>commands</value>
   </data>
   <data name="FeatureCommandsTitle" xml:space="preserve">
-    <value>EFT Trainer</value>
+    <value>S1ySt34lthSPTTrainer</value>
   </data>
   <data name="FeatureCrosshairDescription" xml:space="preserve">
     <value>Réticule dont la taille, la couleur et l'épaisseur sont personnalisables et qui se masque automatiquement lors de la visée.</value>
@@ -574,7 +574,7 @@ Les couleurs sont stockées sous la forme d'un tableau de valeurs flottantes 'RG
     <value>[sommaire]</value>
   </data>
   <data name="FeatureRendererWelcome" xml:space="preserve">
-    <value>Bienvenue à EFT-Trainer !</value>
+    <value>Bienvenue à S1ySt34lth-Trainer !</value>
   </data>
   <data name="FeatureSkillsDescription" xml:space="preserve">
     <value>Toutes les compétences au niveau Elite (51) et toutes les armes au niveau 3.</value>

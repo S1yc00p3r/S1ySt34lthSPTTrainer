@@ -1,11 +1,11 @@
-﻿using EFT.Trainer.Extensions;
-using EFT.Trainer.Properties;
+﻿using S1ySt34lth.Trainer.Extensions;
+using S1ySt34lth.Trainer.Properties;
 using JetBrains.Annotations;
 using UnityEngine;
 
 #nullable enable
 
-namespace EFT.Trainer.Features;
+namespace S1ySt34lth.Trainer.Features;
 
 [UsedImplicitly]
 internal class Stamina : ToggleFeature

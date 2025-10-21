@@ -2,7 +2,7 @@
 
 #nullable enable
 
-namespace EFT.Trainer.Configuration;
+namespace S1ySt34lth.Trainer.Configuration;
 
 [AttributeUsage(AttributeTargets.Property)]
 public class ConfigurationPropertyAttribute : Attribute

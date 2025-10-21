@@ -1,12 +1,12 @@
 ﻿using System.Linq;
-using EFT.InventoryLogic;
-using EFT.Trainer.Properties;
+using S1ySt34lth.InventoryLogic;
+using S1ySt34lth.Trainer.Properties;
 using JetBrains.Annotations;
 using UnityEngine;
 
 #nullable enable
 
-namespace EFT.Trainer.Features;
+namespace S1ySt34lth.Trainer.Features;
 
 [UsedImplicitly]
 internal class AirDrop : TriggerFeature

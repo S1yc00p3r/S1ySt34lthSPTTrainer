@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Reflection;
 using BepInEx;
-using EFT.Trainer;
+using S1ySt34lth.Trainer;
 using JetBrains.Annotations;
 using UnityEngine.SceneManagement;
 

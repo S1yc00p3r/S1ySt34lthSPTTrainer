@@ -1,12 +1,12 @@
 ﻿using System.Diagnostics.CodeAnalysis;
-using EFT.InventoryLogic;
-using EFT.Trainer.Properties;
+using S1ySt34lth.InventoryLogic;
+using S1ySt34lth.Trainer.Properties;
 using JetBrains.Annotations;
-using static EFT.Player;
+using static S1ySt34lth.Player;
 
 #nullable enable
 
-namespace EFT.Trainer.Features;
+namespace S1ySt34lth.Trainer.Features;
 
 [UsedImplicitly]
 internal class Examine : ToggleFeature

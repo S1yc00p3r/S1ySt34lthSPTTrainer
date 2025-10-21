@@ -1,9 +1,9 @@
-﻿using EFT.Trainer.Features;
+﻿using S1ySt34lth.Trainer.Features;
 using UnityEngine;
 
 #nullable enable
 
-namespace EFT.Trainer;
+namespace S1ySt34lth.Trainer;
 
 public class Loader
 {

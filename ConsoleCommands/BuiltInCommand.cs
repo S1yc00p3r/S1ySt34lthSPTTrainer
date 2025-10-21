@@ -2,7 +2,7 @@
 
 #nullable enable
 
-namespace EFT.Trainer.ConsoleCommands;
+namespace S1ySt34lth.Trainer.ConsoleCommands;
 
 internal class BuiltInCommand(string name, Action action) : ConsoleCommandWithoutArgument
 {

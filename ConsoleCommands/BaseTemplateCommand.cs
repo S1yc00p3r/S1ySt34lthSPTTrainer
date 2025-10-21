@@ -1,6 +1,6 @@
 ﻿#nullable enable
 
-namespace EFT.Trainer.ConsoleCommands;
+namespace S1ySt34lth.Trainer.ConsoleCommands;
 
 internal abstract class BaseTemplateCommand : ConsoleCommandWithArgument
 {

@@ -364,7 +364,7 @@
     <value>commands</value>
   </data>
   <data name="FeatureCommandsTitle" xml:space="preserve">
-    <value>EFT Trainer</value>
+    <value>S1ySt34lthSPTTrainer</value>
   </data>
   <data name="FeatureCrosshairDescription" xml:space="preserve">
     <value>照準</value>
@@ -574,7 +574,7 @@
     <value>[summary]</value>
   </data>
   <data name="FeatureRendererWelcome" xml:space="preserve">
-    <value>Welcome to EFT-Trainer !</value>
+    <value>Welcome to S1ySt34lth-Trainer !</value>
   </data>
   <data name="FeatureSkillsDescription" xml:space="preserve">
     <value>全スキルをエリートレベル((51)に全武器をレベル3まで習得</value>

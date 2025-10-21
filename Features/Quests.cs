@@ -2,19 +2,19 @@
 using System.Collections.Generic;
 using System.Linq;
 using Comfort.Common;
-using EFT.Counters;
-using EFT.Interactive;
-using EFT.Quests;
-using EFT.Trainer.Configuration;
-using EFT.Trainer.Extensions;
-using EFT.Trainer.Properties;
+using S1ySt34lth.Counters;
+using S1ySt34lth.Interactive;
+using S1ySt34lth.Quests;
+using S1ySt34lth.Trainer.Configuration;
+using S1ySt34lth.Trainer.Extensions;
+using S1ySt34lth.Trainer.Properties;
 using JetBrains.Annotations;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
 #nullable enable
 
-namespace EFT.Trainer.Features;
+namespace S1ySt34lth.Trainer.Features;
 
 [UsedImplicitly]
 internal class Quests : PointOfInterests
@@ -106,7 +106,7 @@ internal class Quests : PointOfInterests
 					if (trigger == null)
 						continue;
 
-					var visited = profile.Stats.Eft.OverallCounters.GetInt(CounterTag.TriggerVisited, trigger.Id) > 0;
+					var visited = profile.Stats.S1ySt34lth.OverallCounters.GetInt(CounterTag.TriggerVisited, trigger.Id) > 0;
 					if (visited)
 						continue;
 

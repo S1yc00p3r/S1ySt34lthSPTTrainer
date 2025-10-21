@@ -18,12 +18,12 @@ namespace Installer
 			try
 			{
 				using var hive = RegistryKey.OpenBaseKey(RegistryHive.LocalMachine, RegistryView.Registry32);
-				using var eft = hive.OpenSubKey(@"Software\Microsoft\Windows\CurrentVersion\Uninstall\EscapeFromTarkov", false);
+				using var S1ySt34lth = hive.OpenSubKey(@"Software\Microsoft\Windows\CurrentVersion\Uninstall\EscapeFromTarkov", false);
 
-				if (eft == null)
+				if (S1ySt34lth == null)
 					return false;
 
-				var exe = eft.GetValue("DisplayIcon") as string;
+				var exe = S1ySt34lth.GetValue("DisplayIcon") as string;
 				if (string.IsNullOrEmpty(exe) || !File.Exists(exe))
 					return false;
 

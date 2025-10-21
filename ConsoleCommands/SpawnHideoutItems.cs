@@ -1,14 +1,14 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
-using EFT.Trainer.Extensions;
-using EFT.Trainer.Features;
-using EFT.Trainer.Properties;
+using S1ySt34lth.Trainer.Extensions;
+using S1ySt34lth.Trainer.Features;
+using S1ySt34lth.Trainer.Properties;
 using HarmonyLib;
 using JetBrains.Annotations;
 
 #nullable enable
 
-namespace EFT.Trainer.ConsoleCommands;
+namespace S1ySt34lth.Trainer.ConsoleCommands;
 
 [UsedImplicitly]
 internal class SpawnHideoutItems : ConsoleCommandWithoutArgument
@@ -26,7 +26,7 @@ internal class SpawnHideoutItems : ConsoleCommandWithoutArgument
 			return;
 
 		// Find the obfuscated method that returns the computed hidout items
-		// We need to have the auto-add hideout items enabled in EFT settings
+		// We need to have the auto-add hideout items enabled in S1ySt34lth settings
 		var method = AccessTools
 			.GetDeclaredMethods(manager.GetType())
 			.FirstOrDefault(m => m.ReturnType == typeof(IEnumerable<MongoID>));

@@ -1,12 +1,12 @@
 ﻿using System.Collections.Generic;
-using EFT.Trainer.Configuration;
-using EFT.Trainer.Extensions;
-using EFT.Trainer.UI;
+using S1ySt34lth.Trainer.Configuration;
+using S1ySt34lth.Trainer.Extensions;
+using S1ySt34lth.Trainer.UI;
 using UnityEngine;
 
 #nullable enable
 
-namespace EFT.Trainer.Features;
+namespace S1ySt34lth.Trainer.Features;
 
 internal abstract class BaseMapToggleFeature : ToggleFeature
 {

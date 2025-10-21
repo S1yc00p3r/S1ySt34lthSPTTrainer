@@ -1,15 +1,15 @@
 ﻿using System;
 using System.Diagnostics.CodeAnalysis;
-using EFT.Ballistics;
-using EFT.HealthSystem;
-using EFT.Trainer.Configuration;
-using EFT.Trainer.Extensions;
-using EFT.Trainer.Properties;
+using S1ySt34lth.Ballistics;
+using S1ySt34lth.HealthSystem;
+using S1ySt34lth.Trainer.Configuration;
+using S1ySt34lth.Trainer.Extensions;
+using S1ySt34lth.Trainer.Properties;
 using JetBrains.Annotations;
 
 #nullable enable
 
-namespace EFT.Trainer.Features;
+namespace S1ySt34lth.Trainer.Features;
 
 [UsedImplicitly]
 internal class Health : ToggleFeature

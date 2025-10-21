@@ -1,11 +1,11 @@
-﻿using EFT.Trainer.Properties;
-using EFT.Weather;
+﻿using S1ySt34lth.Trainer.Properties;
+using S1ySt34lth.Weather;
 using JetBrains.Annotations;
 using UnityEngine;
 
 #nullable enable
 
-namespace EFT.Trainer.Features;
+namespace S1ySt34lth.Trainer.Features;
 
 [UsedImplicitly]
 internal class Weather : TriggerFeature

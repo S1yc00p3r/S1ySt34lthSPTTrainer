@@ -1,9 +1,9 @@
-﻿using EFT.Trainer.Properties;
+﻿using S1ySt34lth.Trainer.Properties;
 using JetBrains.Annotations;
 
 #nullable enable
 
-namespace EFT.Trainer.ConsoleCommands;
+namespace S1ySt34lth.Trainer.ConsoleCommands;
 
 [UsedImplicitly]
 internal class List : BaseListCommand

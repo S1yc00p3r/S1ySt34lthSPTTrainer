@@ -1,10 +1,10 @@
-﻿using EFT.Trainer.Configuration;
+﻿using S1ySt34lth.Trainer.Configuration;
 using JetBrains.Annotations;
 using UnityEngine;
 
 #nullable enable
 
-namespace EFT.Trainer.Features;
+namespace S1ySt34lth.Trainer.Features;
 
 internal abstract class ToggleFeature : Feature
 {

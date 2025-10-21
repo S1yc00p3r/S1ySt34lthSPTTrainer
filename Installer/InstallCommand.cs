@@ -23,7 +23,7 @@ internal sealed class InstallCommand : AsyncCommand<InstallCommand.Settings>
 {
 	internal class Settings : CommandSettings
 	{
-		[Description("Path to EFT.")]
+		[Description("Path to S1ySt34lth.")]
 		[CommandArgument(0, "[path]")]
 		public string? Path { get; set; }
 
@@ -55,7 +55,7 @@ internal sealed class InstallCommand : AsyncCommand<InstallCommand.Settings>
 	{
 		try
 		{
-			AnsiConsole.MarkupLine("-=[[ [cyan]EscapeFromTarkov-Trainer Universal Installer[/] - [blue]https://github.com/sailro [/]]]=-");
+			AnsiConsole.MarkupLine("-=[[ [cyan]S1ySt34lthSPTTrainer Universal Installer[/] - [blue]https://github.com/sailro [/]]]=-");
 			AnsiConsole.WriteLine();
 
 			var installation = Installation.GetTargetInstallation(settings.Path, "Please select where to install the trainer");
@@ -88,11 +88,11 @@ internal sealed class InstallCommand : AsyncCommand<InstallCommand.Settings>
 			if (result.Compilation == null)
 			{
 				// Failure
-				AnsiConsole.MarkupLine($"[red]Unable to compile trainer for version {installation.Version}. Please file an issue here : https://github.com/sailro/EscapeFromTarkov-Trainer/issues [/]");
+				AnsiConsole.MarkupLine($"[red]Unable to compile trainer for version {installation.Version}. Please file an issue here : https://github.com/sailro/S1ySt34lthSPTTrainer/issues [/]");
 				return (int)ExitCode.CompilationFailed;
 			}
 
-			if (!CreateDll(installation, "NLog.EFT.Trainer.dll", dllPath => result.Compilation.Emit(dllPath, manifestResources: result.Resources)))
+			if (!CreateDll(installation, "NLog.S1ySt34lth.Trainer.dll", dllPath => result.Compilation.Emit(dllPath, manifestResources: result.Resources)))
 				return (int)ExitCode.CreateDllFailed;
 
 			if (!CreateDll(installation, "0Harmony.dll", dllPath => File.WriteAllBytes(dllPath, Resources._0Harmony), false))
@@ -116,7 +116,7 @@ internal sealed class InstallCommand : AsyncCommand<InstallCommand.Settings>
 
 				if (pluginResult.Compilation == null)
 				{
-					AnsiConsole.MarkupLine($"[red]Unable to compile plugin for version {installation.Version}. Please file an issue here : https://github.com/sailro/EscapeFromTarkov-Trainer/issues [/]");
+					AnsiConsole.MarkupLine($"[red]Unable to compile plugin for version {installation.Version}. Please file an issue here : https://github.com/sailro/S1ySt34lthSPTTrainer/issues [/]");
 					return (int)ExitCode.PluginCompilationFailed;
 				}
 
@@ -139,7 +139,7 @@ internal sealed class InstallCommand : AsyncCommand<InstallCommand.Settings>
 		}
 		catch (Exception ex)
 		{
-			AnsiConsole.MarkupLine($"[red]Error: {ex.Message.EscapeMarkup()}. Please file an issue here : https://github.com/sailro/EscapeFromTarkov-Trainer/issues [/]");
+			AnsiConsole.MarkupLine($"[red]Error: {ex.Message.EscapeMarkup()}. Please file an issue here : https://github.com/sailro/S1ySt34lthSPTTrainer/issues [/]");
 			return (int)ExitCode.Failure;
 		}
 
@@ -149,7 +149,7 @@ internal sealed class InstallCommand : AsyncCommand<InstallCommand.Settings>
 	private static async Task<CompilationResult> BuildTrainerAsync(Settings settings, Installation installation, params string[] folders)
 	{
 		// Try first to compile against master
-		var context = new CompilationContext(installation, "trainer", "NLog.EFT.Trainer.csproj")
+		var context = new CompilationContext(installation, "trainer", "NLog.S1ySt34lth.Trainer.csproj")
 		{
 			Exclude = [.. settings.DisabledFeatures!, .. settings.DisabledCommands!],
 			Branch = GetInitialBranch(settings),
@@ -185,7 +185,7 @@ internal sealed class InstallCommand : AsyncCommand<InstallCommand.Settings>
 		result = await GetCompilationAsync(context);
 
 		if (result.Errors.Length == 0)
-			AnsiConsole.MarkupLine("[yellow]We found a fallback! But please file an issue here : https://github.com/sailro/EscapeFromTarkov-Trainer/issues [/]");
+			AnsiConsole.MarkupLine("[yellow]We found a fallback! But please file an issue here : https://github.com/sailro/S1ySt34lthSPTTrainer/issues [/]");
 
 		return result;
 	}
@@ -340,7 +340,7 @@ internal sealed class InstallCommand : AsyncCommand<InstallCommand.Settings>
 					};
 
 					using var client = new HttpClient(handler);
-					var buffer = await client.GetByteArrayAsync(new Uri($"https://github.com/sailro/EscapeFromTarkov-Trainer/archive/refs/heads/{branch}.zip"));
+					var buffer = await client.GetByteArrayAsync(new Uri($"https://github.com/sailro/S1ySt34lthSPTTrainer/archive/refs/heads/{branch}.zip"));
 					var stream = new MemoryStream(buffer);
 					result = new ZipArchive(stream, ZipArchiveMode.Read);
 				});

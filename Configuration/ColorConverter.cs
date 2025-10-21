@@ -6,7 +6,7 @@ using UnityEngine;
 
 #nullable enable
 
-namespace EFT.Trainer.Configuration;
+namespace S1ySt34lth.Trainer.Configuration;
 
 public class ColorConverter : JsonConverter
 {

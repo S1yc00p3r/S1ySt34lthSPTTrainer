@@ -1,11 +1,11 @@
-﻿using EFT.Trainer.Configuration;
+﻿using S1ySt34lth.Trainer.Configuration;
 using JsonType;
 using Newtonsoft.Json;
 using UnityEngine;
 
 #nullable enable
 
-namespace EFT.Trainer.Features;
+namespace S1ySt34lth.Trainer.Features;
 
 internal class TrackedItem(string name, Color? color = null, ELootRarity? rarity = null)
 {

@@ -4,7 +4,7 @@ using UnityEngine;
 
 #nullable enable
 
-namespace EFT.Trainer.Features;
+namespace S1ySt34lth.Trainer.Features;
 
 internal class ShaderCache : MonoBehaviour
 {

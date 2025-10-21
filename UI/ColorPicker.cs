@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace EFT.Trainer.UI;
+namespace S1ySt34lth.Trainer.UI;
 
 public class ColorPicker : Picker<Color>
 {

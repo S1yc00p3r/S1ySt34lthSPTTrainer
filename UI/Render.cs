@@ -2,7 +2,7 @@
 
 #nullable enable
 
-namespace EFT.Trainer.UI;
+namespace S1ySt34lth.Trainer.UI;
 
 public static class Render
 {

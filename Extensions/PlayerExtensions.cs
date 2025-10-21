@@ -1,10 +1,10 @@
 ﻿using System.Diagnostics.CodeAnalysis;
 using System.Linq;
-using EFT.InventoryLogic;
+using S1ySt34lth.InventoryLogic;
 
 #nullable enable
 
-namespace EFT.Trainer.Extensions;
+namespace S1ySt34lth.Trainer.Extensions;
 
 public static class PlayerExtensions
 {

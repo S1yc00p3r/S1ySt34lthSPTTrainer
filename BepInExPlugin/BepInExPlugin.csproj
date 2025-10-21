@@ -60,9 +60,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\NLog.EFT.Trainer.csproj">
+    <ProjectReference Include="..\NLog.S1ySt34lth.Trainer.csproj">
       <Project>{f4eb56b6-f914-11e9-aad5-362b9e155667}</Project>
-      <Name>NLog.EFT.Trainer</Name>
+      <Name>NLog.S1ySt34lth.Trainer</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
